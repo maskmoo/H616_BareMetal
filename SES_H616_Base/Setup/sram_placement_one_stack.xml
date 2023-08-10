@@ -1,0 +1,27 @@
+<!DOCTYPE Linker_Placement_File>
+<Root name="SRAM Section Placement" >
+  <MemorySegment name="External SRAM;SRAM;SDRAM;DRAM;RAM;RAM1" >
+    <ProgramSection alignment="4" load="Yes" name=".init" />
+    <ProgramSection alignment="4" load="Yes" name=".init_rodata" />
+    <ProgramSection alignment="4" load="Yes" name=".text" />
+    <ProgramSection alignment="8" load="Yes" name=".dtors" />
+    <ProgramSection alignment="8" load="Yes" name=".ctors" />
+    <ProgramSection alignment="4" load="Yes" name=".data" />
+    <ProgramSection alignment="4" load="Yes" name=".rodata" />
+    <ProgramSection alignment="8" load="Yes" name=".eh_frame_hdr" keep="Yes"/>
+    <ProgramSection alignment="8" load="Yes" name=".eh_frame" keep="Yes"/>
+    <ProgramSection alignment="8" load="Yes" name=".gcc_except_table" keep="Yes"/>
+    <ProgramSection alignment="4" load="No" name=".bss" />
+    <ProgramSection alignment="4" load="No" name=".non_init" />
+    <ProgramSection alignment="8" size="__HEAPSIZE__" load="No" name=".heap" />
+    <ProgramSection alignment="16" size="__STACKSIZE__" load="No" name=".stack" />
+    <ProgramSection alignment="16" size="0x80" load="No" name=".stack_el1" />
+    <ProgramSection alignment="4" load="No" name=".tbss" />
+    <ProgramSection alignment="4" load="Yes" name=".tdata" />
+    <ProgramSection alignment="0x4000" load="No" name=".mmu" />
+  </MemorySegment>
+  <MemorySegment name="Internal SRAM;SRAM;SDRAM;DRAM;RAM;RAM1" >
+    <ProgramSection load="Yes" name=".vectors" />
+    <ProgramSection alignment="4" load="Yes" name=".fast" />
+  </MemorySegment>
+</Root>

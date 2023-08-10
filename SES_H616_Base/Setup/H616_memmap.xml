@@ -1,0 +1,4 @@
+<Root name="He01">
+  <MemorySegment name="FLASH" start="0xC0000000" size="0x4000" access="ReadOnly" />
+  <MemorySegment name="SRAM" start="0x20000" size="0x8000" access="Read/Write" />
+</Root>

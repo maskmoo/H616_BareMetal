@@ -1,0 +1,20 @@
+"Output/Debug/Obj/SES_H616_Base/main.o"
+"Output/Debug/Obj/SES_H616_Base/sys_uart.o"
+<<<<<<< HEAD
+"Output/Debug/Obj/SES_H616_Base/SEGGER_RTL_PRINOPS_UART_Unbuffered.o"
+"Output/Debug/Obj/SES_H616_Base/ARM64_crt0.o"
+"Output/Debug/Obj/SES_H616_Base/ARM64_Startup.o"
+"C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 7.30/lib/libc_v8a_a64_le_balanced.a"
+"C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 7.30/lib/heapops_basic_v8a_a64_le_balanced.a"
+"C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 7.30/lib/heapops_disable_interrupts_locking_v8a_a64_le_balanced.a"
+"C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 7.30/lib/strops_unaligned_v8a_a64_le_balanced.a"
+=======
+"Output/Debug/Obj/SES_H616_Base/ARM64_crt0.o"
+"Output/Debug/Obj/SES_H616_Base/ARM64_Startup.o"
+"C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 7.22/lib/libc_v8a_a64_le_balanced.a"
+"C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 7.22/lib/prinops_semihost_v8a_a64_le_balanced.a"
+"C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 7.22/lib/prinops_semihostformatted_v8a_a64_le_balanced.a"
+"C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 7.22/lib/heapops_basic_v8a_a64_le_balanced.a"
+"C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 7.22/lib/heapops_disable_interrupts_locking_v8a_a64_le_balanced.a"
+"C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 7.22/lib/strops_unaligned_v8a_a64_le_balanced.a"
+>>>>>>> 8dc7ddba10031d0b9d8e2f7fdc2136b9f6e4f354

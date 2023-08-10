@@ -1,0 +1,98 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <BreakpointListItem trigger="" line="166" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="System/ARM64_crt0.s" useHWbreakpoint="false"/>
+  <BreakpointListItem trigger="" line="92" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="System/ARM64_Startup.s" useHWbreakpoint="false"/>
+  <BreakpointListItem trigger="" line="30" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="Source/main.c" useHWbreakpoint="false"/>
+ </Breakpoints>
+ <ExecutionProfileWindow/>
+ <FrameBuffer>
+  <FrameBufferWindow width="240" keepAspectRatio="0" zoomToFitWindow="0" addressSpace="" format="2" height="240" autoEvaluate="0" scaleFactor="2.399999999999999" refreshPeriod="0" name="Executable_ARM64_Debug" addressText="0x8a000000" accessByDisplayWidth="0"/>
+  <FrameBufferWindow width="1340279359" keepAspectRatio="0" zoomToFitWindow="0" addressSpace="" format="0" height="-1432196667" autoEvaluate="0" scaleFactor="1" refreshPeriod="0" name="Executable_ARM64_Release" addressText="" accessByDisplayWidth="0"/>
+  <FrameBufferWindow width="240" keepAspectRatio="0" zoomToFitWindow="0" addressSpace="" format="2" height="240" autoEvaluate="0" scaleFactor="2.399999999999999" refreshPeriod="0" name="SES_H616_Base_Debug" addressText="0x8a000000" accessByDisplayWidth="0"/>
+ </FrameBuffer>
+ <Memory1>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="Executable_ARM64_Debug" sizeText="sizeof(buf)" addressText="0xc0000000"/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="Executable_ARM64_Release" sizeText="" addressText="0x8A000000"/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="SES_H616_Base_Debug" sizeText="sizeof(buf)" addressText="0x21650"/>
+ </Memory1>
+ <Memory2>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="Executable_ARM64_Debug" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="Executable_ARM64_Release" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="SES_H616_Base_Debug" sizeText="" addressText=""/>
+ </Memory2>
+ <Memory3>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="Executable_ARM64_Debug" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="Executable_ARM64_Release" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="SES_H616_Base_Debug" sizeText="" addressText=""/>
+ </Memory3>
+ <Memory4>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="Executable_ARM64_Debug" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="Executable_ARM64_Release" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="SES_H616_Base_Debug" sizeText="" addressText=""/>
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="SES_H616_Base"/>
+  <ProjectSessionItem path="SES_H616_Base;SES_H616_Base"/>
+  <ProjectSessionItem path="SES_H616_Base;SES_H616_Base;Setup"/>
+  <ProjectSessionItem path="SES_H616_Base;SES_H616_Base;Source"/>
+  <ProjectSessionItem path="SES_H616_Base;SES_H616_Base;System"/>
+ </Project>
+ <Register1>
+  <RegisterWindow visibleNodes="ARM64 CPU/PC;ARM64 CPU/SP;ARM64 CPU/PSTATE;ARM64 CPU (X)/X0;ARM64 CPU (X)/X1;ARM64 CPU (X)/X2;ARM64 CPU (X)/X3;ARM64 CPU (X)/X4;ARM64 CPU (X)/X5;ARM64 CPU (X)/X6;ARM64 CPU (X)/X7;ARM64 CPU (X)/X8;ARM64 CPU (X)/X9;ARM64 CPU (X)/X10;ARM64 CPU (X)/X11;ARM64 CPU (X)/X12;ARM64 CPU (X)/X13;ARM64 CPU (X)/X14;ARM64 CPU (X)/X15;ARM64 CPU (X)/X16;ARM64 CPU (X)/X17;ARM64 CPU (X)/X18;ARM64 CPU (X)/X19;ARM64 CPU (X)/X20;ARM64 CPU (X)/X21;ARM64 CPU (X)/X22;ARM64 CPU (X)/X23;ARM64 CPU (X)/X24;ARM64 CPU (X)/X25;ARM64 CPU (X)/X26;ARM64 CPU (X)/X27;ARM64 CPU (X)/X28;ARM64 CPU (X)/X29;ARM64 CPU (X)/X30" binaryNodes="" asciiNodes="" openNodes="ARM64 CPU;ARM64 CPU/PSTATE;ARM64 CPU (X)" name="Executable_ARM64_Debug" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow visibleNodes="ARM64 CPU/PC;ARM64 CPU/SP;ARM64 CPU/PSTATE;ARM64 CPU (X)/X0;ARM64 CPU (X)/X1;ARM64 CPU (X)/X2;ARM64 CPU (X)/X3;ARM64 CPU (X)/X4;ARM64 CPU (X)/X5;ARM64 CPU (X)/X6;ARM64 CPU (X)/X7;ARM64 CPU (X)/X8;ARM64 CPU (X)/X9;ARM64 CPU (X)/X10;ARM64 CPU (X)/X11;ARM64 CPU (X)/X12;ARM64 CPU (X)/X13;ARM64 CPU (X)/X14;ARM64 CPU (X)/X15;ARM64 CPU (X)/X16;ARM64 CPU (X)/X17;ARM64 CPU (X)/X18;ARM64 CPU (X)/X19;ARM64 CPU (X)/X20;ARM64 CPU (X)/X21;ARM64 CPU (X)/X22;ARM64 CPU (X)/X23;ARM64 CPU (X)/X24;ARM64 CPU (X)/X25;ARM64 CPU (X)/X26;ARM64 CPU (X)/X27;ARM64 CPU (X)/X28;ARM64 CPU (X)/X29;ARM64 CPU (X)/X30" binaryNodes="" asciiNodes="" openNodes="ARM64 CPU" name="Executable_ARM64_Release" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow visibleNodes="ARM64 CPU/PC;ARM64 CPU/SP;ARM64 CPU/PSTATE;ARM64 CPU (X)/X0;ARM64 CPU (X)/X1;ARM64 CPU (X)/X2;ARM64 CPU (X)/X3;ARM64 CPU (X)/X4;ARM64 CPU (X)/X5;ARM64 CPU (X)/X6;ARM64 CPU (X)/X7;ARM64 CPU (X)/X8;ARM64 CPU (X)/X9;ARM64 CPU (X)/X10;ARM64 CPU (X)/X11;ARM64 CPU (X)/X12;ARM64 CPU (X)/X13;ARM64 CPU (X)/X14;ARM64 CPU (X)/X15;ARM64 CPU (X)/X16;ARM64 CPU (X)/X17;ARM64 CPU (X)/X18;ARM64 CPU (X)/X19;ARM64 CPU (X)/X20;ARM64 CPU (X)/X21;ARM64 CPU (X)/X22;ARM64 CPU (X)/X23;ARM64 CPU (X)/X24;ARM64 CPU (X)/X25;ARM64 CPU (X)/X26;ARM64 CPU (X)/X27;ARM64 CPU (X)/X28;ARM64 CPU (X)/X29;ARM64 CPU (X)/X30" binaryNodes="" asciiNodes="" openNodes="ARM64 CPU;ARM64 CPU/PSTATE;ARM64 CPU (X)" name="SES_H616_Base_Debug" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register1>
+ <Register2>
+  <RegisterWindow visibleNodes="ARM64 CPU/PC;ARM64 CPU/SP;ARM64 CPU/PSTATE;ARM64 CPU (X)/X0;ARM64 CPU (X)/X1;ARM64 CPU (X)/X2;ARM64 CPU (X)/X3;ARM64 CPU (X)/X4;ARM64 CPU (X)/X5;ARM64 CPU (X)/X6;ARM64 CPU (X)/X7;ARM64 CPU (X)/X8;ARM64 CPU (X)/X9;ARM64 CPU (X)/X10;ARM64 CPU (X)/X11;ARM64 CPU (X)/X12;ARM64 CPU (X)/X13;ARM64 CPU (X)/X14;ARM64 CPU (X)/X15;ARM64 CPU (X)/X16;ARM64 CPU (X)/X17;ARM64 CPU (X)/X18;ARM64 CPU (X)/X19;ARM64 CPU (X)/X20;ARM64 CPU (X)/X21;ARM64 CPU (X)/X22;ARM64 CPU (X)/X23;ARM64 CPU (X)/X24;ARM64 CPU (X)/X25;ARM64 CPU (X)/X26;ARM64 CPU (X)/X27;ARM64 CPU (X)/X28;ARM64 CPU (X)/X29;ARM64 CPU (X)/X30" binaryNodes="" asciiNodes="" openNodes="ARM64 CPU" name="Executable_ARM64_Debug" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow visibleNodes="ARM64 CPU/PC;ARM64 CPU/SP;ARM64 CPU/PSTATE;ARM64 CPU (X)/X0;ARM64 CPU (X)/X1;ARM64 CPU (X)/X2;ARM64 CPU (X)/X3;ARM64 CPU (X)/X4;ARM64 CPU (X)/X5;ARM64 CPU (X)/X6;ARM64 CPU (X)/X7;ARM64 CPU (X)/X8;ARM64 CPU (X)/X9;ARM64 CPU (X)/X10;ARM64 CPU (X)/X11;ARM64 CPU (X)/X12;ARM64 CPU (X)/X13;ARM64 CPU (X)/X14;ARM64 CPU (X)/X15;ARM64 CPU (X)/X16;ARM64 CPU (X)/X17;ARM64 CPU (X)/X18;ARM64 CPU (X)/X19;ARM64 CPU (X)/X20;ARM64 CPU (X)/X21;ARM64 CPU (X)/X22;ARM64 CPU (X)/X23;ARM64 CPU (X)/X24;ARM64 CPU (X)/X25;ARM64 CPU (X)/X26;ARM64 CPU (X)/X27;ARM64 CPU (X)/X28;ARM64 CPU (X)/X29;ARM64 CPU (X)/X30" binaryNodes="" asciiNodes="" openNodes="ARM64 CPU" name="Executable_ARM64_Release" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow visibleNodes="ARM64 CPU/PC;ARM64 CPU/SP;ARM64 CPU/PSTATE;ARM64 CPU (X)/X0;ARM64 CPU (X)/X1;ARM64 CPU (X)/X2;ARM64 CPU (X)/X3;ARM64 CPU (X)/X4;ARM64 CPU (X)/X5;ARM64 CPU (X)/X6;ARM64 CPU (X)/X7;ARM64 CPU (X)/X8;ARM64 CPU (X)/X9;ARM64 CPU (X)/X10;ARM64 CPU (X)/X11;ARM64 CPU (X)/X12;ARM64 CPU (X)/X13;ARM64 CPU (X)/X14;ARM64 CPU (X)/X15;ARM64 CPU (X)/X16;ARM64 CPU (X)/X17;ARM64 CPU (X)/X18;ARM64 CPU (X)/X19;ARM64 CPU (X)/X20;ARM64 CPU (X)/X21;ARM64 CPU (X)/X22;ARM64 CPU (X)/X23;ARM64 CPU (X)/X24;ARM64 CPU (X)/X25;ARM64 CPU (X)/X26;ARM64 CPU (X)/X27;ARM64 CPU (X)/X28;ARM64 CPU (X)/X29;ARM64 CPU (X)/X30" binaryNodes="" asciiNodes="" openNodes="ARM64 CPU" name="SES_H616_Base_Debug" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register2>
+ <Register3>
+  <RegisterWindow visibleNodes="ARM64 CPU/PC;ARM64 CPU/SP;ARM64 CPU/PSTATE;ARM64 CPU (X)/X0;ARM64 CPU (X)/X1;ARM64 CPU (X)/X2;ARM64 CPU (X)/X3;ARM64 CPU (X)/X4;ARM64 CPU (X)/X5;ARM64 CPU (X)/X6;ARM64 CPU (X)/X7;ARM64 CPU (X)/X8;ARM64 CPU (X)/X9;ARM64 CPU (X)/X10;ARM64 CPU (X)/X11;ARM64 CPU (X)/X12;ARM64 CPU (X)/X13;ARM64 CPU (X)/X14;ARM64 CPU (X)/X15;ARM64 CPU (X)/X16;ARM64 CPU (X)/X17;ARM64 CPU (X)/X18;ARM64 CPU (X)/X19;ARM64 CPU (X)/X20;ARM64 CPU (X)/X21;ARM64 CPU (X)/X22;ARM64 CPU (X)/X23;ARM64 CPU (X)/X24;ARM64 CPU (X)/X25;ARM64 CPU (X)/X26;ARM64 CPU (X)/X27;ARM64 CPU (X)/X28;ARM64 CPU (X)/X29;ARM64 CPU (X)/X30" binaryNodes="" asciiNodes="" openNodes="ARM64 CPU" name="Executable_ARM64_Debug" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow visibleNodes="ARM64 CPU/PC;ARM64 CPU/SP;ARM64 CPU/PSTATE;ARM64 CPU (X)/X0;ARM64 CPU (X)/X1;ARM64 CPU (X)/X2;ARM64 CPU (X)/X3;ARM64 CPU (X)/X4;ARM64 CPU (X)/X5;ARM64 CPU (X)/X6;ARM64 CPU (X)/X7;ARM64 CPU (X)/X8;ARM64 CPU (X)/X9;ARM64 CPU (X)/X10;ARM64 CPU (X)/X11;ARM64 CPU (X)/X12;ARM64 CPU (X)/X13;ARM64 CPU (X)/X14;ARM64 CPU (X)/X15;ARM64 CPU (X)/X16;ARM64 CPU (X)/X17;ARM64 CPU (X)/X18;ARM64 CPU (X)/X19;ARM64 CPU (X)/X20;ARM64 CPU (X)/X21;ARM64 CPU (X)/X22;ARM64 CPU (X)/X23;ARM64 CPU (X)/X24;ARM64 CPU (X)/X25;ARM64 CPU (X)/X26;ARM64 CPU (X)/X27;ARM64 CPU (X)/X28;ARM64 CPU (X)/X29;ARM64 CPU (X)/X30" binaryNodes="" asciiNodes="" openNodes="ARM64 CPU" name="Executable_ARM64_Release" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow visibleNodes="ARM64 CPU/PC;ARM64 CPU/SP;ARM64 CPU/PSTATE;ARM64 CPU (X)/X0;ARM64 CPU (X)/X1;ARM64 CPU (X)/X2;ARM64 CPU (X)/X3;ARM64 CPU (X)/X4;ARM64 CPU (X)/X5;ARM64 CPU (X)/X6;ARM64 CPU (X)/X7;ARM64 CPU (X)/X8;ARM64 CPU (X)/X9;ARM64 CPU (X)/X10;ARM64 CPU (X)/X11;ARM64 CPU (X)/X12;ARM64 CPU (X)/X13;ARM64 CPU (X)/X14;ARM64 CPU (X)/X15;ARM64 CPU (X)/X16;ARM64 CPU (X)/X17;ARM64 CPU (X)/X18;ARM64 CPU (X)/X19;ARM64 CPU (X)/X20;ARM64 CPU (X)/X21;ARM64 CPU (X)/X22;ARM64 CPU (X)/X23;ARM64 CPU (X)/X24;ARM64 CPU (X)/X25;ARM64 CPU (X)/X26;ARM64 CPU (X)/X27;ARM64 CPU (X)/X28;ARM64 CPU (X)/X29;ARM64 CPU (X)/X30" binaryNodes="" asciiNodes="" openNodes="ARM64 CPU" name="SES_H616_Base_Debug" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register3>
+ <Register4>
+  <RegisterWindow visibleNodes="ARM64 CPU/PC;ARM64 CPU/SP;ARM64 CPU/PSTATE;ARM64 CPU (X)/X0;ARM64 CPU (X)/X1;ARM64 CPU (X)/X2;ARM64 CPU (X)/X3;ARM64 CPU (X)/X4;ARM64 CPU (X)/X5;ARM64 CPU (X)/X6;ARM64 CPU (X)/X7;ARM64 CPU (X)/X8;ARM64 CPU (X)/X9;ARM64 CPU (X)/X10;ARM64 CPU (X)/X11;ARM64 CPU (X)/X12;ARM64 CPU (X)/X13;ARM64 CPU (X)/X14;ARM64 CPU (X)/X15;ARM64 CPU (X)/X16;ARM64 CPU (X)/X17;ARM64 CPU (X)/X18;ARM64 CPU (X)/X19;ARM64 CPU (X)/X20;ARM64 CPU (X)/X21;ARM64 CPU (X)/X22;ARM64 CPU (X)/X23;ARM64 CPU (X)/X24;ARM64 CPU (X)/X25;ARM64 CPU (X)/X26;ARM64 CPU (X)/X27;ARM64 CPU (X)/X28;ARM64 CPU (X)/X29;ARM64 CPU (X)/X30" binaryNodes="" asciiNodes="" openNodes="ARM64 CPU" name="Executable_ARM64_Debug" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow visibleNodes="ARM64 CPU/PC;ARM64 CPU/SP;ARM64 CPU/PSTATE;ARM64 CPU (X)/X0;ARM64 CPU (X)/X1;ARM64 CPU (X)/X2;ARM64 CPU (X)/X3;ARM64 CPU (X)/X4;ARM64 CPU (X)/X5;ARM64 CPU (X)/X6;ARM64 CPU (X)/X7;ARM64 CPU (X)/X8;ARM64 CPU (X)/X9;ARM64 CPU (X)/X10;ARM64 CPU (X)/X11;ARM64 CPU (X)/X12;ARM64 CPU (X)/X13;ARM64 CPU (X)/X14;ARM64 CPU (X)/X15;ARM64 CPU (X)/X16;ARM64 CPU (X)/X17;ARM64 CPU (X)/X18;ARM64 CPU (X)/X19;ARM64 CPU (X)/X20;ARM64 CPU (X)/X21;ARM64 CPU (X)/X22;ARM64 CPU (X)/X23;ARM64 CPU (X)/X24;ARM64 CPU (X)/X25;ARM64 CPU (X)/X26;ARM64 CPU (X)/X27;ARM64 CPU (X)/X28;ARM64 CPU (X)/X29;ARM64 CPU (X)/X30" binaryNodes="" asciiNodes="" openNodes="ARM64 CPU" name="Executable_ARM64_Release" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow visibleNodes="ARM64 CPU/PC;ARM64 CPU/SP;ARM64 CPU/PSTATE;ARM64 CPU (X)/X0;ARM64 CPU (X)/X1;ARM64 CPU (X)/X2;ARM64 CPU (X)/X3;ARM64 CPU (X)/X4;ARM64 CPU (X)/X5;ARM64 CPU (X)/X6;ARM64 CPU (X)/X7;ARM64 CPU (X)/X8;ARM64 CPU (X)/X9;ARM64 CPU (X)/X10;ARM64 CPU (X)/X11;ARM64 CPU (X)/X12;ARM64 CPU (X)/X13;ARM64 CPU (X)/X14;ARM64 CPU (X)/X15;ARM64 CPU (X)/X16;ARM64 CPU (X)/X17;ARM64 CPU (X)/X18;ARM64 CPU (X)/X19;ARM64 CPU (X)/X20;ARM64 CPU (X)/X21;ARM64 CPU (X)/X22;ARM64 CPU (X)/X23;ARM64 CPU (X)/X24;ARM64 CPU (X)/X25;ARM64 CPU (X)/X26;ARM64 CPU (X)/X27;ARM64 CPU (X)/X28;ARM64 CPU (X)/X29;ARM64 CPU (X)/X30" binaryNodes="" asciiNodes="" openNodes="ARM64 CPU" name="SES_H616_Base_Debug" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register4>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never"/>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="35" useTextEdit="1" path="Source/main.c" left="0" top="2" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Setup/sram_placement_one_stack.xml" left="0" top="3" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="66" y="16" useTextEdit="1" path="System/ARM64_Startup.s" left="0" top="16" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="16" y="286" useTextEdit="1" path="System/ARM64_crt0.s" left="0" top="242" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="19" y="56" useTextEdit="1" path="C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 7.22/include/__SEGGER_RTL_Arm64_Conf.h" left="0" top="38" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="20" useTextEdit="1" path="C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 7.22/include/__SEGGER_RTL_Conf.h" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="9" useTextEdit="1" path="Source/sys_uart.c" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="41" useTextEdit="1" openedFrom="D:/w/20230227_HE01/mangopi/SES/SES_H616_Base/Source/sys_uart.c" path="Source/io.h" left="0" top="13" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="4" y="106" useTextEdit="1" path="Source/printk.c" left="0" top="129" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="2" y="27" useTextEdit="1" path="Source/types.h" left="0" top="9" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="28" y="71" useTextEdit="1" path="C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 7.22/include/stdio.h" left="0" top="62" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="5" y="1330" path="Output/Debug/Exe/SES_H616_Base.elf" left="0" top="1330" codecName=""/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="71" y="2" useTextEdit="1" path="Setup/H616_memmap.xml" left="0" selected="1" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="273" useTextEdit="1" path="Output/Debug/Exe/SES_H616_Base.ld" left="0" top="229" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="Output/Debug/Exe/SES_H616_Base.hex" left="0" top="314" codecName="Default"/>
+ </Files>
+ <EMStudioWindow activeProject="SES_H616_Base" fileDialogDefaultFilter="*" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="D:/w/20230227_HE01/mangopi/SES_Project/SES_H616_Base/Setup" debugSearchPath="" autoConnectCapabilities="3199"/>
+</session>

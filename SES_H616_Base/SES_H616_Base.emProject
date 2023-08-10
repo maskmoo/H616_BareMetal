@@ -1,0 +1,69 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="SES_H616_Base" target="8" version="2">
+  <configuration
+    Name="Debug"
+    c_preprocessor_definitions="DEBUG"
+    gcc_debugging_level="Level 3"
+    gcc_omit_frame_pointer="Yes"
+    gcc_optimization_level="None" />
+  <configuration
+    Name="Release"
+    c_preprocessor_definitions="NDEBUG"
+    gcc_debugging_level="Level 2"
+    gcc_omit_frame_pointer="Yes"
+    gcc_optimization_level="Level 2 balanced" />
+  <project Name="SES_H616_Base">
+    <configuration
+      LIBRARY_IO_TYPE="SEMIHOST"
+      Name="Common"
+      arm_architecture="v8A"
+      arm_compiler_variant="gcc"
+      arm_core_type="Cortex-A53"
+      arm_endian="Little"
+      arm_fpu_type="FP-ARMv8"
+      arm_instruction_set="ARM64"
+      arm_linker_heap_size="2048"
+      arm_linker_stack_size="2048"
+      arm_target_device_name="Cortex-A53"
+      arm_target_interface_type="JTAG"
+      debug_stack_pointer_start="__stack_end__"
+      debug_target_connection="J-Link"
+      gcc_entry_point="Reset_Handler"
+      linker_output_format="hex"
+      linker_section_placement_file="Setup/sram_placement_one_stack.xml"
+      linker_section_placements_segments="FLASH1 RX 0x00000000 0x00100000;RAM1 RWX 0x20000000 0x00010000"
+      project_directory=""
+      project_type="Executable" />
+    <configuration
+<<<<<<< HEAD
+      LIBRARY_IO_TYPE="None"
+=======
+      LIBRARY_IO_TYPE="SEMIHOST (host-formatted)"
+>>>>>>> 8dc7ddba10031d0b9d8e2f7fdc2136b9f6e4f354
+      Name="Debug"
+      c_additional_options="-mgeneral-regs-only"
+      c_system_include_directories="$(StudioIncDir:$(StudioDir)/include);$(ProjectDir)/Source"
+      debug_target_connection="J-Link"
+      linker_memory_map_file="$(ProjectDir)/Setup/H616_memmap.xml"
+      linker_section_placements_segments="FLASH1 RX 0x00000000 0x00100000;RAM1 RWX 0x20000 0x8000" />
+    <folder Name="Setup">
+      <file file_name="Setup/H616_memmap.xml" />
+      <file file_name="Setup/sram_placement_one_stack.xml" />
+    </folder>
+    <folder Name="Source">
+      <file file_name="Source/main.c" />
+<<<<<<< HEAD
+      <file file_name="Source/SEGGER_RTL_PRINOPS_UART_Unbuffered.c" />
+=======
+      <file file_name="Source/printk.c">
+        <configuration Name="Debug" build_exclude_from_build="Yes" />
+      </file>
+>>>>>>> 8dc7ddba10031d0b9d8e2f7fdc2136b9f6e4f354
+      <file file_name="Source/sys_uart.c" />
+    </folder>
+    <folder Name="System">
+      <file file_name="System/ARM64_crt0.s" />
+      <file file_name="System/ARM64_Startup.s" />
+    </folder>
+  </project>
+</solution>
